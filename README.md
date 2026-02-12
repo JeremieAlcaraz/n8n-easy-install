@@ -21,13 +21,13 @@ Téléchargez et installez Multipass depuis le site officiel : [https://canonica
 Ouvrez le terminal de votre machine hôte et exécutez la commande suivante :
 
 ```bash
-multipass launch docker --name n8n_multipass --cpus 4 --memory 8G --disk 50G
+multipass launch docker --name n8n --cpus 4 --memory 8G --disk 50G
 ```
 
 ### 3. Connexion à l'instance Multipass
 
 ```bash
-multipass shell n8n_multipass
+multipass shell n8n
 ```
 
 ### 4. Clonage du repository
